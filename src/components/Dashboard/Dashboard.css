@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.dashboard-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.content-mid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.typed-text {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.custom-button {
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.custom-button:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  margin: 0 0.5rem;
+  background-color: black;
+  color: white;
+  border-radius: 20%;
+  font-size: 20px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  background-color: white;
+  color: black;
+}
+
+.description {
+  padding-right: 20rem;
+  padding-left: 20rem;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 960px) {
+  .description {
+    padding-right: 5rem;
+    padding-left: 5rem;
+    font-size: 15px;
+    font-weight: 500;
+  }
+}

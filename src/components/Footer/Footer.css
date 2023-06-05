@@ -1,0 +1,65 @@
+.footer-container {
+  background: #000000;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.5rem;
+  font-weight: 300;
+  font-family: "Inter", sans-serif;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.footer-title {
+  color: #ffffff;
+  font-weight: 00;
+  display: flex;
+  align-items: center;
+}
+
+.foot-title {
+  font-weight: 600;
+  margin-left: 1rem;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* FOR RESPONSIVE */
+
+@media screen and (max-width: 1024px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer-logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer-social {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer-social {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footer-logo {
+    display: none;
+  }
+  .footer-social {
+    display: none;
+  }
+}
